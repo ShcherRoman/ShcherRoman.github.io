@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@300&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.locationItem {
+    margin-left: 63px;
+}
+
+.navbar-nav {
+    margin-left: 5rem;
+}
+
+.nav-link {
+    color: #000000 !important;
+}
+
+.nav-link:hover {
+    background-color: #F7941D;
+}
+
+.LogoM {
+    display: none;
+}
+
+.wrapper {
+    background-image: url(/images/bg.png);
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapSM {
+    display: none;
+}
+
+.wrapText {
+    color: white;
+}
+
+.wrapText h1 {
+    font-size: 42px;
+    font-weight: 700, bold;
+    color: white;
+    max-width: 617px;
+    padding-top: 40px;
+    line-height: 51.2px;
+    margin-bottom: 40px;
+}
+
+.smena {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 2px solid;
+    border-image: linear-gradient(90deg, rgba(247, 148, 29, 1) 50%, rgba(39, 170, 225, 1) 1);
+}
+
+.btnRegistrarion {
+    background-color: #F7941D;
+    width: 180px;
+    height: 50px;
+    margin-top: 16px;
+    color: white;
+    margin-bottom: 40px;
+    font-weight: 700 bold;
+    font-size: 14px;
+    line-height: 26px;
+    border-radius: 6px;
+}
+
+.sertificate {
+    background: #E5E5E5;
+}
+
+.owl div {
+    font-style: medium;
+    font-size: 24px;
+    width: 350px;
+    background: white;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px 20px 47px 20px;
+    margin-top: 80px
+}
+
+.triangle {
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 30px solid white;
+    border-right: 30px solid transparent;
+    position: relative;
+    left: 175px;
+}
+
+#owlImg {
+    position: relative;
+    bottom: 40px;
+    width: 168px;
+    height: 188px;
+}
+
+.types {
+    list-style: none;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 58px;
+    list-style-image: url(/images/listType.png);
+    margin-top: 92px;
+    column-count: 2;
+    column-gap: 70px;
+    column-fill: auto;
+}
+
+.types li {
+    padding-left: 18px;
+}
+
+.sertifText {
+    max-width: 451px;
+}
+
+.sertificate h4 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.sertifText span {
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.calendar {
+    background: #00093C;
+}
+
+.calendar h4 {
+    padding-top: 46px;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+}
+
+.calendar-ul {
+    list-style: none;
+    padding: 0 0;
+    margin-top: 36px;
+    column-count: 2;
+    color: white;
+    column-gap: 100px;
+}
+
+.plan {
+    background: #E5E5E5;
+}
+
+#planIMG {
+    display: block;
+    position: relative;
+    top: 64px;
+}
+
+.plan h4 {
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 34px;
+    color: rgba(0, 9, 60, 1);
+}
+
+.spisok {
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 25px;
+    padding-top: 18px;
+    font-weight: normal;
+    padding-bottom: 29px;
+    border: 2px solid orange;
+}
+
+.time {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+.plan h2 {
+    color: rgba(0, 9, 60, 1);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.plan h2 p {
+    font-size: 18px;
+    font-weight: 500;
+    width: 447px;
+}
+
+.gallery img {
+    margin: 0 10px;
+}
+
+.gallery {
+    display: flex;
+    overflow: scroll;
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+
+.gallery::-webkit-scrollbar {
+    padding-top: 38px;
+    height: 4px;
+}
+
+.gallery::-webkit-scrollbar-thumb {
+    background-color: #F7941D;
+    width: 380px;
+    padding-top: 38px;
+    margin-top: 38px;
+}
+
+.principCard{
+    font-size: 18px;
+}
+
+.form{
+    border-radius: 25px;
+    border: 1px solid orange;
+    position: relative;
+    top: 50px;
+}
+
+#owl2{
+    position: relative;
+    right: 50px;
+    top: 40px;
+}
+
+.form-style{
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.form-control{
+    background-color: rgba(0, 9, 60, 0.1);
+    font-size: 18px;
+    font-weight: 400;
+    height: 50px;
+}
+
+#inputName{
+    max-width: 440px;
+    height: 50px;
+}
+
+#emailName, #phoneName{
+    max-width: 210px;
+    margin-right: 20px;
+    height: 50px;
+}
+
+.btnSubmit{
+    max-width: 210px;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(247, 148, 29, 1);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.formText{
+    max-width: 210px;
+    width: 100%;
+    margin-right: 20px;
+    font-size: 10px;
+}
+
+.owlText1{
+    margin-top: 40px;
+    padding-top: 23px;
+    font-size: 24px;
+    text-align: left;
+    line-height: 26px;
+    border: 1px solid orange;
+    border-radius: 25px;
+    max-height: 190px;
+    max-width: 417px;
+}
+
+.owlText1 span{
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 22px;
+}
+
+.footer{
+    background: rgba(0, 9, 60, 1);
+
+}
+
+.footerMenu{
+    padding-top: 70px;
+    color: white;
+}
+
+.footerMenu dt{
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.footerMenu a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+#imgFooter{
+margin-bottom: 43px;
+margin-top: 70px;
+}
+
+.socialMedia{
+    width: 100%;
+}
