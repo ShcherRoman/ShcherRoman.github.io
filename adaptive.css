@@ -1,0 +1,69 @@
+@media only screen and (max-width: 1200px) {
+
+    .card-text, .cardclicked-text {
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+    .cardClicked p {
+        font-size: 12px;
+        text-align: left;
+        padding-top: 10px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 998px) {
+    .contactForm2, .contactForm1 {
+        width: 500px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .contactForm2, .contactForm1 {
+        width: 400px;
+    }
+
+    .textForm {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .contactForm2, .contactForm1 {
+        width: 100%;
+    }
+
+    .contact {
+        padding-bottom: 0;
+    }
+
+    .teamWrap {
+        background-color: #70f6eb;
+        position: absolute;
+        z-index: 2000;
+        left: 10%;
+        bottom: 5%;
+        height: 80%;
+        width: 80%;
+        padding: 40px;
+
+    }
+
+    .wrapper {
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    #firstsection {
+        padding-top: 60px;
+        padding-bottom: 75px;
+    }
+
+    .content {
+        padding-top: 50px;
+    }
+}
